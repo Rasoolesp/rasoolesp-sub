@@ -1,4 +1,5 @@
-vmess=154.201.76.172:20521, method=aes-128-gcm, password=496cec71-a0fd-4f25-bba1-cba9e9d5a52f, obfs=ws, obfs-uri=/, fast-open=false, udp-relay=false, aead=true, tag=@ConfigV2RayNG >>@configV2rayNG::US
+shadowsocks=57.129.140.88:8388, method=chacha20-ietf-poly1305, password=k1v5g9FefdoO, fast-open=false, udp-relay=false, tag=🇬🇧GB-57.129.140.88-0178
+
 
 
 
