@@ -1,5 +1,4 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxZDFiYzU0Njg5ZWQ0Yjc1QDExOS4xNTkuMjQ1LjI0OjI2NzM2#%F0%9F%87%B5%F0%9F%87%B0%2072%20-%20PK%20-%20SS/AEAD%20-%2026736
-
+vmess=154.201.76.172:20521, method=aes-128-gcm, password=496cec71-a0fd-4f25-bba1-cba9e9d5a52f, obfs=ws, obfs-uri=/, fast-open=false, udp-relay=false, aead=true, tag=@ConfigV2RayNG >>@configV2rayNG::US
 
 
 
