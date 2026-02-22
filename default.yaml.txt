@@ -1,0 +1,877 @@
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+ipv6: false
+external-controller: 0.0.0.0:9090
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  ipv6: false
+  default-nameserver:
+    - 223.5.5.5
+    - 114.114.114.114
+  nameserver:
+    - 223.5.5.5
+    - 114.114.114.114
+    - 119.29.29.29
+    - 180.76.76.76
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - "*.lan"
+    - "*.localdomain"
+    - "*.example"
+    - "*.invalid"
+    - "*.localhost"
+    - "*.test"
+    - "*.local"
+    - "*.home.arpa"
+    - router.asus.com
+    - localhost.sec.qq.com
+    - localhost.ptlogin2.qq.com
+    - +.msftconnecttest.com
+tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-detect-interface: true
+  dns-hijack:
+    - 114.114.114.114
+    - 180.76.76.76
+    - 119.29.29.29
+    - 223.5.5.5
+    - 8.8.8.8
+    - 8.8.4.4
+    - 1.1.1.1
+    - 1.0.0.1
+proxies:
+  - name: 🔥
+    type: hysteria2
+    server: 206.71.158.41
+    port: 35000
+    password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+    sni: jnir.pichondan.com
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+  - name: "🔥 Telegram: @wiki_tajrobe"
+    type: hysteria2
+    server: 206.71.158.41
+    port: 35000
+    password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+    sni: jnir.pichondan.com
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+  - name: EmKavpn5
+    type: hysteria2
+    server: gavazn.lnmarketplace.net
+    port: 45000
+    password: Telegram-->@Ln2Ray
+    sni: gavazn.55994421.xyz
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: Telegram-->@Ln2Ray
+  - name: "@V2rayNG3"
+    type: hysteria2
+    server: 206.71.158.41
+    port: 35000
+    password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+    sni: jnir.pichondan.com
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+  - name: none
+    type: hysteria2
+    server: gavazn.lnmarketplace.net
+    port: 45000
+    password: Telegram-->@Ln2Ray
+    sni: gavazn.55994421.xyz
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: Telegram-->@Ln2Ray
+  - name: HP71 (5)
+    type: hysteria2
+    server: 206.71.158.40
+    port: 35000
+    password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+    sni: api.kermanshahi.org
+    skip-cert-verify: false
+    obfs: salamander
+    obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+  - name: "@Trick_mobil"
+    type: hysteria2
+    server: 206.71.158.23
+    port: 45000
+    password: Telegram-->@Ln2Ray
+    sni: gavazn.55994421.xyz
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: Telegram-->@Ln2Ray
+  - name: HP71
+    type: hysteria2
+    server: 206.71.158.41
+    port: 35000
+    password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+    sni: api.kermanshahi.org
+    skip-cert-verify: false
+    obfs: salamander
+    obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+  - name: 🌐
+    type: hysteria2
+    server: 206.71.158.23
+    port: 45000
+    password: Telegram-->@Ln2Ray
+    sni: gavazn.55994421.xyz
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: Telegram-->@Ln2Ray
+  - name: "@WedBaZTel"
+    type: hysteria2
+    server: 206.71.158.37
+    port: 36300
+    password: Yet-Another-Public-Config-1
+    sni: YAPC-1.afshin.ir
+    skip-cert-verify: false
+    obfs: salamander
+    obfs-password: Yet-Another-Public-Config-1
+  - name: "@Trick_mobil #5"
+    type: hysteria2
+    server: 206.71.158.23
+    port: 45000
+    password: Telegram-->@Ln2Ray
+    sni: gavazn.55994421.xyz
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: Telegram-->@Ln2Ray
+  - name: "@azadi_config`"
+    type: hysteria2
+    server: 206.71.158.37
+    port: 35200
+    password: Yet-Another-Public-Config-1
+    sni: YAPC-1.afshin.ir
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: Yet-Another-Public-Config-1
+  - name: ">>@oneclickvpnkeys::FR"
+    type: hysteria2
+    server: 129.151.251.122
+    port: 35000
+    password: 545fb4e9-5794-4e20-be0c-e6d8689f91ac
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+  - name: "@V2rayNG3_1"
+    type: hysteria2
+    server: 206.71.158.37
+    port: 35000
+    password: Yet-Another-Public-Config-1
+    sni: YAPC-1.afshin.ir
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: Yet-Another-Public-Config-1
+  - name: "@FarazV2ray"
+    type: hysteria2
+    server: 206.71.158.37
+    port: 35000
+    password: Yet-Another-Public-Config-1
+    sni: YAPC-1.afshin.ir
+    skip-cert-verify: false
+    obfs: salamander
+    obfs-password: Yet-Another-Public-Config-1
+  - name: "🔥 Telegram: @wiki_tajrobe_1"
+    type: hysteria2
+    server: 206.71.158.41
+    port: 35000
+    password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+    sni: jnir.pichondan.com
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+  - name: ">>@oneclickvpnkeys::ES"
+    type: hysteria2
+    server: 143.47.32.143
+    port: 35000
+    password: 545fb4e9-5794-4e20-be0c-e6d8689f91ac
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+  - name: All_7--@V2rayAlpha
+    type: hysteria2
+    server: 206.71.158.37
+    port: 35000
+    password: Yet-Another-Public-Config-1
+    sni: YAPC-1.afshin.ir
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: Yet-Another-Public-Config-1
+  - name: 📤44@oneclickvpnkeys
+    type: hysteria2
+    server: 129.151.251.122
+    port: 35000
+    password: 545fb4e9-5794-4e20-be0c-e6d8689f91ac
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+  - name: "@WedBaZTel_1"
+    type: hysteria2
+    server: 206.71.158.37
+    port: 36400
+    password: Yet-Another-Public-Config-1
+    sni: YAPC-1.afshin.ir
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: Yet-Another-Public-Config-1
+  - name: HP71_1
+    type: hysteria2
+    server: 206.71.158.37
+    port: 36400
+    password: Yet-Another-Public-Config-1
+    sni: YAPC-1.afshin.ir
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: Yet-Another-Public-Config-1
+  - name: "کانال تلگرام : Free_VPN_CH@"
+    type: hysteria2
+    server: 130.61.50.75
+    port: 6443
+    password: zhangyang
+    sni: dash.cloudflare.com
+    skip-cert-verify: true
+  - name: "@Hddify"
+    type: hysteria2
+    server: 206.71.158.37
+    port: 36400
+    password: Yet-Another-Public-Config-1
+    sni: YAPC-1.afshin.ir
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: Yet-Another-Public-Config-1
+  - name: 📤88@oneclickvpnkeysvless://03dd7e7c-8d2a-4cd2-b920-f5ed564fc8c4@77.110.114.1:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=srv27.outlinekeys.com&fp=chrome&security=reality&pbk=3zn513ilYXOJngXLRP0MUnK23HuB9TKLjQ7YG20dzTQ&sid=#📤85@oneclickvpnkeysvless://5e18094c-18b1-4198-b211-96b40518cecf@107.181.147.22:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.techradar.com&fp=chrome&security=reality&pbk=Cs45TZ-4YKa8fWZ72YJcIcQCKipWsoYNZHEqFvs-PTE&sid=f6e197a0b9f2#📤78@oneclickvpnkeys
+    type: hysteria2
+    server: 129.153.25.59
+    port: 35000
+    password: 545fb4e9-5794-4e20-be0c-e6d8689f91ac
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+  - name: ">>@oneclickvpnkeys::US"
+    type: hysteria2
+    server: 129.153.25.59
+    port: 35000
+    password: 545fb4e9-5794-4e20-be0c-e6d8689f91ac
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+  - name: 44@oneclickvpnkeys
+    type: hysteria2
+    server: 129.151.251.122
+    port: 35000
+    password: 545fb4e9-5794-4e20-be0c-e6d8689f91ac
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+  - name: 📤88@oneclickvpnkeys
+    type: hysteria2
+    server: 129.153.25.59
+    port: 35000
+    password: 545fb4e9-5794-4e20-be0c-e6d8689f91ac
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+  - name: telegram
+    type: hysteria2
+    server: 206.71.158.37
+    port: 35000
+    password: Yet-Another-Public-Config-1
+    sni: YAPC-1.afshin.ir
+    skip-cert-verify: false
+    obfs: salamander
+    obfs-password: Yet-Another-Public-Config-1
+  - name: 德国 黑森州 法兰克福 — 甲骨文云
+    type: hysteria2
+    server: 130.61.50.75
+    port: 6443
+    password: zhangyang
+    sni: dash.cloudflare.com
+    skip-cert-verify: true
+  - name: 🌵🌵🌷7
+    type: hysteria2
+    server: 206.71.158.37
+    port: 35000
+    password: Yet-Another-Public-Config-1
+    sni: YAPC-1.afshin.ir
+    skip-cert-verify: false
+    obfs: salamander
+    obfs-password: Yet-Another-Public-Config-1
+  - name: "@meliproxyy"
+    type: hysteria2
+    server: 206.71.158.41
+    port: 35000
+    password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+    sni: jnir.pichondan.com
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+  - name: 德国 黑森州 法兰克福 — 甲骨文云 2
+    type: hysteria2
+    server: 130.61.50.75
+    port: 6443
+    password: zhangyang
+    sni: dash.cloudflare.com
+    skip-cert-verify: true
+  - name: "@V2rayNG3_2"
+    type: hysteria2
+    server: 206.71.158.37
+    port: 35000
+    password: Yet-Another-Public-Config-1
+    sni: YAPC-1.afshin.ir
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: Yet-Another-Public-Config-1
+  - name: "@WedBaZTel #1"
+    type: hysteria2
+    server: 206.71.158.37
+    port: 36400
+    password: Yet-Another-Public-Config-1
+    sni: YAPC-1.afshin.ir
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: Yet-Another-Public-Config-1
+  - name: 57@oneclickvpnkeys
+    type: hysteria2
+    server: 143.47.32.143
+    port: 35000
+    password: 545fb4e9-5794-4e20-be0c-e6d8689f91ac
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+  - name: "@Hddify_1"
+    type: hysteria2
+    server: 206.71.158.37
+    port: 36300
+    password: Yet-Another-Public-Config-1
+    sni: YAPC-1.afshin.ir
+    skip-cert-verify: false
+    obfs: salamander
+    obfs-password: Yet-Another-Public-Config-1
+  - name: 📤57@oneclickvpnkeys
+    type: hysteria2
+    server: 143.47.32.143
+    port: 35000
+    password: 545fb4e9-5794-4e20-be0c-e6d8689f91ac
+    sni: www.lamer.com.hk
+    skip-cert-verify: true
+  - name: All_7--@V2rayAlpha_1
+    type: hysteria2
+    server: 206.71.158.37
+    port: 35000
+    password: Yet-Another-Public-Config-1
+    sni: YAPC-1.afshin.ir
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: Yet-Another-Public-Config-1
+  - name: "@V2rayNG3 #1"
+    type: hysteria2
+    server: 206.71.158.41
+    port: 35000
+    password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+    sni: api.kermanshahi.org
+    skip-cert-verify: true
+    obfs: salamander
+    obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+  - name: HP71_2
+    type: hysteria2
+    server: 206.71.158.40
+    port: 35000
+    password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+    sni: api.kermanshahi.org
+    skip-cert-verify: false
+    obfs: salamander
+    obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
+  - name: ">>@oneclickvpnkeys::DE"
+    type: hysteria2
+    server: 130.61.50.75
+    port: 6443
+    password: zhangyang
+    sni: dash.cloudflare.com
+    skip-cert-verify: true
+  - name: vmess
+    type: vmess
+    server: 1.0.2.3
+    port: 2095
+    uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    network: ws
+    ws-opts:
+      path: v2rayse.com/test
+      headers:
+        Host: baidu.com
+  - name: vless
+    type: vless
+    server: 1.2.3.4
+    port: 7777
+    uuid: abc-def-ghi-fge-zsx
+    tls: true
+  - type: hysteria
+    server: 1.2.3.4
+    port: 12854
+    auth_str: pekopeko
+    up: "50"
+    down: "250"
+    sni: wechat.com
+    skip-cert-verify: true
+    alpn:
+      - h3
+    name: 1.2.3.4
+  - name: MyHysteria
+    type: hysteria2
+    server: example.com
+    port: 443
+    password: P@ssw0rd1234
+    sni: www.example.com
+    skip-cert-verify: false
+    obfs: salamander
+    obfs-password: obfs_pwd
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - 🔥
+      - "🔥 Telegram: @wiki_tajrobe"
+      - EmKavpn5
+      - "@V2rayNG3"
+      - none
+      - HP71 (5)
+      - "@Trick_mobil"
+      - HP71
+      - 🌐
+      - "@WedBaZTel"
+      - "@Trick_mobil #5"
+      - "@azadi_config`"
+      - ">>@oneclickvpnkeys::FR"
+      - "@V2rayNG3_1"
+      - "@FarazV2ray"
+      - "🔥 Telegram: @wiki_tajrobe_1"
+      - ">>@oneclickvpnkeys::ES"
+      - All_7--@V2rayAlpha
+      - 📤44@oneclickvpnkeys
+      - "@WedBaZTel_1"
+      - HP71_1
+      - "کانال تلگرام : Free_VPN_CH@"
+      - "@Hddify"
+      - 📤88@oneclickvpnkeysvless://03dd7e7c-8d2a-4cd2-b920-f5ed564fc8c4@77.110.114.1:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=srv27.outlinekeys.com&fp=chrome&security=reality&pbk=3zn513ilYXOJngXLRP0MUnK23HuB9TKLjQ7YG20dzTQ&sid=#📤85@oneclickvpnkeysvless://5e18094c-18b1-4198-b211-96b40518cecf@107.181.147.22:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.techradar.com&fp=chrome&security=reality&pbk=Cs45TZ-4YKa8fWZ72YJcIcQCKipWsoYNZHEqFvs-PTE&sid=f6e197a0b9f2#📤78@oneclickvpnkeys
+      - ">>@oneclickvpnkeys::US"
+      - 44@oneclickvpnkeys
+      - 📤88@oneclickvpnkeys
+      - telegram
+      - 德国 黑森州 法兰克福 — 甲骨文云
+      - 🌵🌵🌷7
+      - "@meliproxyy"
+      - 德国 黑森州 法兰克福 — 甲骨文云 2
+      - "@V2rayNG3_2"
+      - "@WedBaZTel #1"
+      - 57@oneclickvpnkeys
+      - "@Hddify_1"
+      - 📤57@oneclickvpnkeys
+      - All_7--@V2rayAlpha_1
+      - "@V2rayNG3 #1"
+      - HP71_2
+      - ">>@oneclickvpnkeys::DE"
+      - vmess
+      - vless
+      - 1.2.3.4
+      - MyHysteria
+  - name: ♻️ 自动选择
+    type: url-test
+    proxies:
+      - 🔥
+      - "🔥 Telegram: @wiki_tajrobe"
+      - EmKavpn5
+      - "@V2rayNG3"
+      - none
+      - HP71 (5)
+      - "@Trick_mobil"
+      - HP71
+      - 🌐
+      - "@WedBaZTel"
+      - "@Trick_mobil #5"
+      - "@azadi_config`"
+      - ">>@oneclickvpnkeys::FR"
+      - "@V2rayNG3_1"
+      - "@FarazV2ray"
+      - "🔥 Telegram: @wiki_tajrobe_1"
+      - ">>@oneclickvpnkeys::ES"
+      - All_7--@V2rayAlpha
+      - 📤44@oneclickvpnkeys
+      - "@WedBaZTel_1"
+      - HP71_1
+      - "کانال تلگرام : Free_VPN_CH@"
+      - "@Hddify"
+      - 📤88@oneclickvpnkeysvless://03dd7e7c-8d2a-4cd2-b920-f5ed564fc8c4@77.110.114.1:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=srv27.outlinekeys.com&fp=chrome&security=reality&pbk=3zn513ilYXOJngXLRP0MUnK23HuB9TKLjQ7YG20dzTQ&sid=#📤85@oneclickvpnkeysvless://5e18094c-18b1-4198-b211-96b40518cecf@107.181.147.22:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.techradar.com&fp=chrome&security=reality&pbk=Cs45TZ-4YKa8fWZ72YJcIcQCKipWsoYNZHEqFvs-PTE&sid=f6e197a0b9f2#📤78@oneclickvpnkeys
+      - ">>@oneclickvpnkeys::US"
+      - 44@oneclickvpnkeys
+      - 📤88@oneclickvpnkeys
+      - telegram
+      - 德国 黑森州 法兰克福 — 甲骨文云
+      - 🌵🌵🌷7
+      - "@meliproxyy"
+      - 德国 黑森州 法兰克福 — 甲骨文云 2
+      - "@V2rayNG3_2"
+      - "@WedBaZTel #1"
+      - 57@oneclickvpnkeys
+      - "@Hddify_1"
+      - 📤57@oneclickvpnkeys
+      - All_7--@V2rayAlpha_1
+      - "@V2rayNG3 #1"
+      - HP71_2
+      - ">>@oneclickvpnkeys::DE"
+      - vmess
+      - vless
+      - 1.2.3.4
+      - MyHysteria
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 🔥
+      - "🔥 Telegram: @wiki_tajrobe"
+      - EmKavpn5
+      - "@V2rayNG3"
+      - none
+      - HP71 (5)
+      - "@Trick_mobil"
+      - HP71
+      - 🌐
+      - "@WedBaZTel"
+      - "@Trick_mobil #5"
+      - "@azadi_config`"
+      - ">>@oneclickvpnkeys::FR"
+      - "@V2rayNG3_1"
+      - "@FarazV2ray"
+      - "🔥 Telegram: @wiki_tajrobe_1"
+      - ">>@oneclickvpnkeys::ES"
+      - All_7--@V2rayAlpha
+      - 📤44@oneclickvpnkeys
+      - "@WedBaZTel_1"
+      - HP71_1
+      - "کانال تلگرام : Free_VPN_CH@"
+      - "@Hddify"
+      - 📤88@oneclickvpnkeysvless://03dd7e7c-8d2a-4cd2-b920-f5ed564fc8c4@77.110.114.1:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=srv27.outlinekeys.com&fp=chrome&security=reality&pbk=3zn513ilYXOJngXLRP0MUnK23HuB9TKLjQ7YG20dzTQ&sid=#📤85@oneclickvpnkeysvless://5e18094c-18b1-4198-b211-96b40518cecf@107.181.147.22:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.techradar.com&fp=chrome&security=reality&pbk=Cs45TZ-4YKa8fWZ72YJcIcQCKipWsoYNZHEqFvs-PTE&sid=f6e197a0b9f2#📤78@oneclickvpnkeys
+      - ">>@oneclickvpnkeys::US"
+      - 44@oneclickvpnkeys
+      - 📤88@oneclickvpnkeys
+      - telegram
+      - 德国 黑森州 法兰克福 — 甲骨文云
+      - 🌵🌵🌷7
+      - "@meliproxyy"
+      - 德国 黑森州 法兰克福 — 甲骨文云 2
+      - "@V2rayNG3_2"
+      - "@WedBaZTel #1"
+      - 57@oneclickvpnkeys
+      - "@Hddify_1"
+      - 📤57@oneclickvpnkeys
+      - All_7--@V2rayAlpha_1
+      - "@V2rayNG3 #1"
+      - HP71_2
+      - ">>@oneclickvpnkeys::DE"
+      - vmess
+      - vless
+      - 1.2.3.4
+      - MyHysteria
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - 🔥
+      - "🔥 Telegram: @wiki_tajrobe"
+      - EmKavpn5
+      - "@V2rayNG3"
+      - none
+      - HP71 (5)
+      - "@Trick_mobil"
+      - HP71
+      - 🌐
+      - "@WedBaZTel"
+      - "@Trick_mobil #5"
+      - "@azadi_config`"
+      - ">>@oneclickvpnkeys::FR"
+      - "@V2rayNG3_1"
+      - "@FarazV2ray"
+      - "🔥 Telegram: @wiki_tajrobe_1"
+      - ">>@oneclickvpnkeys::ES"
+      - All_7--@V2rayAlpha
+      - 📤44@oneclickvpnkeys
+      - "@WedBaZTel_1"
+      - HP71_1
+      - "کانال تلگرام : Free_VPN_CH@"
+      - "@Hddify"
+      - 📤88@oneclickvpnkeysvless://03dd7e7c-8d2a-4cd2-b920-f5ed564fc8c4@77.110.114.1:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=srv27.outlinekeys.com&fp=chrome&security=reality&pbk=3zn513ilYXOJngXLRP0MUnK23HuB9TKLjQ7YG20dzTQ&sid=#📤85@oneclickvpnkeysvless://5e18094c-18b1-4198-b211-96b40518cecf@107.181.147.22:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.techradar.com&fp=chrome&security=reality&pbk=Cs45TZ-4YKa8fWZ72YJcIcQCKipWsoYNZHEqFvs-PTE&sid=f6e197a0b9f2#📤78@oneclickvpnkeys
+      - ">>@oneclickvpnkeys::US"
+      - 44@oneclickvpnkeys
+      - 📤88@oneclickvpnkeys
+      - telegram
+      - 德国 黑森州 法兰克福 — 甲骨文云
+      - 🌵🌵🌷7
+      - "@meliproxyy"
+      - 德国 黑森州 法兰克福 — 甲骨文云 2
+      - "@V2rayNG3_2"
+      - "@WedBaZTel #1"
+      - 57@oneclickvpnkeys
+      - "@Hddify_1"
+      - 📤57@oneclickvpnkeys
+      - All_7--@V2rayAlpha_1
+      - "@V2rayNG3 #1"
+      - HP71_2
+      - ">>@oneclickvpnkeys::DE"
+      - vmess
+      - vless
+      - 1.2.3.4
+      - MyHysteria
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - 🔥
+      - "🔥 Telegram: @wiki_tajrobe"
+      - EmKavpn5
+      - "@V2rayNG3"
+      - none
+      - HP71 (5)
+      - "@Trick_mobil"
+      - HP71
+      - 🌐
+      - "@WedBaZTel"
+      - "@Trick_mobil #5"
+      - "@azadi_config`"
+      - ">>@oneclickvpnkeys::FR"
+      - "@V2rayNG3_1"
+      - "@FarazV2ray"
+      - "🔥 Telegram: @wiki_tajrobe_1"
+      - ">>@oneclickvpnkeys::ES"
+      - All_7--@V2rayAlpha
+      - 📤44@oneclickvpnkeys
+      - "@WedBaZTel_1"
+      - HP71_1
+      - "کانال تلگرام : Free_VPN_CH@"
+      - "@Hddify"
+      - 📤88@oneclickvpnkeysvless://03dd7e7c-8d2a-4cd2-b920-f5ed564fc8c4@77.110.114.1:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=srv27.outlinekeys.com&fp=chrome&security=reality&pbk=3zn513ilYXOJngXLRP0MUnK23HuB9TKLjQ7YG20dzTQ&sid=#📤85@oneclickvpnkeysvless://5e18094c-18b1-4198-b211-96b40518cecf@107.181.147.22:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.techradar.com&fp=chrome&security=reality&pbk=Cs45TZ-4YKa8fWZ72YJcIcQCKipWsoYNZHEqFvs-PTE&sid=f6e197a0b9f2#📤78@oneclickvpnkeys
+      - ">>@oneclickvpnkeys::US"
+      - 44@oneclickvpnkeys
+      - 📤88@oneclickvpnkeys
+      - telegram
+      - 德国 黑森州 法兰克福 — 甲骨文云
+      - 🌵🌵🌷7
+      - "@meliproxyy"
+      - 德国 黑森州 法兰克福 — 甲骨文云 2
+      - "@V2rayNG3_2"
+      - "@WedBaZTel #1"
+      - 57@oneclickvpnkeys
+      - "@Hddify_1"
+      - 📤57@oneclickvpnkeys
+      - All_7--@V2rayAlpha_1
+      - "@V2rayNG3 #1"
+      - HP71_2
+      - ">>@oneclickvpnkeys::DE"
+      - vmess
+      - vless
+      - 1.2.3.4
+      - MyHysteria
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - 🔥
+      - "🔥 Telegram: @wiki_tajrobe"
+      - EmKavpn5
+      - "@V2rayNG3"
+      - none
+      - HP71 (5)
+      - "@Trick_mobil"
+      - HP71
+      - 🌐
+      - "@WedBaZTel"
+      - "@Trick_mobil #5"
+      - "@azadi_config`"
+      - ">>@oneclickvpnkeys::FR"
+      - "@V2rayNG3_1"
+      - "@FarazV2ray"
+      - "🔥 Telegram: @wiki_tajrobe_1"
+      - ">>@oneclickvpnkeys::ES"
+      - All_7--@V2rayAlpha
+      - 📤44@oneclickvpnkeys
+      - "@WedBaZTel_1"
+      - HP71_1
+      - "کانال تلگرام : Free_VPN_CH@"
+      - "@Hddify"
+      - 📤88@oneclickvpnkeysvless://03dd7e7c-8d2a-4cd2-b920-f5ed564fc8c4@77.110.114.1:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=srv27.outlinekeys.com&fp=chrome&security=reality&pbk=3zn513ilYXOJngXLRP0MUnK23HuB9TKLjQ7YG20dzTQ&sid=#📤85@oneclickvpnkeysvless://5e18094c-18b1-4198-b211-96b40518cecf@107.181.147.22:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.techradar.com&fp=chrome&security=reality&pbk=Cs45TZ-4YKa8fWZ72YJcIcQCKipWsoYNZHEqFvs-PTE&sid=f6e197a0b9f2#📤78@oneclickvpnkeys
+      - ">>@oneclickvpnkeys::US"
+      - 44@oneclickvpnkeys
+      - 📤88@oneclickvpnkeys
+      - telegram
+      - 德国 黑森州 法兰克福 — 甲骨文云
+      - 🌵🌵🌷7
+      - "@meliproxyy"
+      - 德国 黑森州 法兰克福 — 甲骨文云 2
+      - "@V2rayNG3_2"
+      - "@WedBaZTel #1"
+      - 57@oneclickvpnkeys
+      - "@Hddify_1"
+      - 📤57@oneclickvpnkeys
+      - All_7--@V2rayAlpha_1
+      - "@V2rayNG3 #1"
+      - HP71_2
+      - ">>@oneclickvpnkeys::DE"
+      - vmess
+      - vless
+      - 1.2.3.4
+      - MyHysteria
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🔥
+      - "🔥 Telegram: @wiki_tajrobe"
+      - EmKavpn5
+      - "@V2rayNG3"
+      - none
+      - HP71 (5)
+      - "@Trick_mobil"
+      - HP71
+      - 🌐
+      - "@WedBaZTel"
+      - "@Trick_mobil #5"
+      - "@azadi_config`"
+      - ">>@oneclickvpnkeys::FR"
+      - "@V2rayNG3_1"
+      - "@FarazV2ray"
+      - "🔥 Telegram: @wiki_tajrobe_1"
+      - ">>@oneclickvpnkeys::ES"
+      - All_7--@V2rayAlpha
+      - 📤44@oneclickvpnkeys
+      - "@WedBaZTel_1"
+      - HP71_1
+      - "کانال تلگرام : Free_VPN_CH@"
+      - "@Hddify"
+      - 📤88@oneclickvpnkeysvless://03dd7e7c-8d2a-4cd2-b920-f5ed564fc8c4@77.110.114.1:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=srv27.outlinekeys.com&fp=chrome&security=reality&pbk=3zn513ilYXOJngXLRP0MUnK23HuB9TKLjQ7YG20dzTQ&sid=#📤85@oneclickvpnkeysvless://5e18094c-18b1-4198-b211-96b40518cecf@107.181.147.22:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=www.techradar.com&fp=chrome&security=reality&pbk=Cs45TZ-4YKa8fWZ72YJcIcQCKipWsoYNZHEqFvs-PTE&sid=f6e197a0b9f2#📤78@oneclickvpnkeys
+      - ">>@oneclickvpnkeys::US"
+      - 44@oneclickvpnkeys
+      - 📤88@oneclickvpnkeys
+      - telegram
+      - 德国 黑森州 法兰克福 — 甲骨文云
+      - 🌵🌵🌷7
+      - "@meliproxyy"
+      - 德国 黑森州 法兰克福 — 甲骨文云 2
+      - "@V2rayNG3_2"
+      - "@WedBaZTel #1"
+      - 57@oneclickvpnkeys
+      - "@Hddify_1"
+      - 📤57@oneclickvpnkeys
+      - All_7--@V2rayAlpha_1
+      - "@V2rayNG3 #1"
+      - HP71_2
+      - ">>@oneclickvpnkeys::DE"
+      - vmess
+      - vless
+      - 1.2.3.4
+      - MyHysteria
+rule-providers:
+  LocalAreaNetwork:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/LocalAreaNetwork.list
+    path: ./rules/LocalAreaNetwork.yaml
+  BanAD:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/BanAD.list
+    path: ./rules/BanAD.yaml
+  BanProgramAD:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/BanProgramAD.list
+    path: ./rules/BanProgramAD.yaml
+  GoogleCN:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/GoogleCN.list
+    path: ./rules/GoogleCN.yaml
+  SteamCN:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/SteamCN.list
+    path: ./rules/SteamCN.yaml
+  Microsoft:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Microsoft.list
+    path: ./rules/Microsoft.yaml
+  Apple:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Apple.list
+    path: ./rules/Apple.yaml
+  ProxyMedia:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ProxyMedia.list
+    path: ./rules/ProxyMedia.yaml
+  Telegram:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Telegram.list
+    path: ./rules/Telegram.yaml
+  ProxyLite:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ProxyLite.list
+    path: ./rules/ProxyLite.yaml
+  ChinaDomain:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ChinaDomain.list
+    path: ./rules/ChinaDomain.yaml
+  ChinaCompanyIp:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ChinaCompanyIp.list
+    path: ./rules/ChinaCompanyIp.yaml
+rules:
+  - RULE-SET,LocalAreaNetwork,🎯 全球直连
+  - RULE-SET,BanAD,🛑 全球拦截
+  - RULE-SET,BanProgramAD,🍃 应用净化
+  - RULE-SET,GoogleCN,🎯 全球直连
+  - RULE-SET,SteamCN,🎯 全球直连
+  - RULE-SET,Microsoft,Ⓜ️ 微软服务
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,ProxyMedia,🌍 国外媒体
+  - RULE-SET,Telegram,📲 电报信息
+  - RULE-SET,ProxyLite,🚀 节点选择
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - RULE-SET,ChinaCompanyIp,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
