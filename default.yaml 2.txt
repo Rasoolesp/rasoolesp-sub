@@ -1,0 +1,1132 @@
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: info
+ipv6: false
+external-controller: 0.0.0.0:9090
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  ipv6: false
+  default-nameserver:
+    - 223.5.5.5
+    - 114.114.114.114
+  nameserver:
+    - 223.5.5.5
+    - 114.114.114.114
+    - 119.29.29.29
+    - 180.76.76.76
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - "*.lan"
+    - "*.localdomain"
+    - "*.example"
+    - "*.invalid"
+    - "*.localhost"
+    - "*.test"
+    - "*.local"
+    - "*.home.arpa"
+    - router.asus.com
+    - localhost.sec.qq.com
+    - localhost.ptlogin2.qq.com
+    - +.msftconnecttest.com
+tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-detect-interface: true
+  dns-hijack:
+    - 114.114.114.114
+    - 180.76.76.76
+    - 119.29.29.29
+    - 223.5.5.5
+    - 8.8.8.8
+    - 8.8.4.4
+    - 1.1.1.1
+    - 1.0.0.1
+proxies:
+  - name: a_2238
+    type: vless
+    server: 45.132.1.208
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_297
+    type: vless
+    server: 193.37.70.3
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_602
+    type: vless
+    server: 94.159.111.170
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_389
+    type: vless
+    server: 38.242.229.125
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_457
+    type: vless
+    server: 5.253.188.151
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_598
+    type: vless
+    server: 94.159.104.1
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_545
+    type: vless
+    server: 87.251.77.76
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_466
+    type: vless
+    server: 5.61.47.9
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_272
+    type: vless
+    server: 185.78.76.40
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_597
+    type: vless
+    server: 94.159.100.124
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_434
+    type: vless
+    server: 46.203.233.242
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_408
+    type: vless
+    server: 45.153.230.220
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_518
+    type: vless
+    server: 82.117.245.166
+    port: 2053
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_145
+    type: vless
+    server: 143.20.236.203
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_608
+    type: vless
+    server: 95.182.97.147
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_143
+    type: vless
+    server: 143.20.213.235
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_606
+    type: vless
+    server: 95.181.161.158
+    port: 2053
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_306
+    type: vless
+    server: 194.87.25.176
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_448
+    type: vless
+    server: 5.178.110.39
+    port: 2053
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_346
+    type: vless
+    server: 212.34.155.195
+    port: 2053
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_546
+    type: vless
+    server: 87.251.86.199
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_553
+    type: vless
+    server: 89.168.43.31
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_521
+    type: vless
+    server: 83.143.113.26
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_141
+    type: vless
+    server: 143.20.213.128
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_550
+    type: vless
+    server: 88.218.78.149
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_539
+    type: vless
+    server: 87.120.92.150
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_440
+    type: vless
+    server: 46.8.224.150
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_430
+    type: vless
+    server: 46.101.175.103
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_239
+    type: vless
+    server: 176.96.138.17
+    port: 2087
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_179
+    type: vless
+    server: 152.53.131.209
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_269
+    type: vless
+    server: 185.66.165.51
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_579
+    type: vless
+    server: 91.84.111.44
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_549
+    type: vless
+    server: 88.210.6.236
+    port: 2053
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_163
+    type: vless
+    server: 146.70.32.51
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_405
+    type: vless
+    server: 45.144.233.205
+    port: 2053
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_412
+    type: vless
+    server: 45.38.170.198
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_537
+    type: vless
+    server: 87.106.141.152
+    port: 2053
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_301
+    type: vless
+    server: 194.164.205.110
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_005
+    type: hysteria2
+    server: 206.71.158.37
+    port: 36400
+    password: Yet-Another-Public-Config-1
+    sni: YAPC-1.afshin.ir
+    skip-cert-verify: false
+    obfs: salamander
+    obfs-password: Yet-Another-Public-Config-1
+  - name: q_319
+    type: vless
+    server: 199.119.137.95
+    port: 2053
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_413
+    type: vless
+    server: 45.43.76.107
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_305
+    type: vless
+    server: 194.35.120.116
+    port: 19702
+    uuid: 1f3b130d-7d29-45d1-b5aa-adc5cd94a885
+    servername: check-host.net
+    tls: true
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: 6ba85179e30d4fc2
+  - name: q_130
+    type: vless
+    server: 140.238.100.35
+    port: 40721
+    uuid: bf3e8944-8d26-47de-8748-b9aa74cce974
+    servername: yahoo.com
+    tls: true
+    reality-opts:
+      public-key: TUZgwzcTvoROSbgnqMh3WorXVMxQNIF2zsEM39FQbyk
+      short-id: df8611c07d
+  - name: q_450
+    type: vless
+    server: 5.187.4.103
+    port: 8443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_262
+    type: vless
+    server: 185.214.74.210
+    port: 443
+    uuid: 6fd9f786-d974-49d0-b5c4-397678de69a2
+    servername: www.cybo.com
+    tls: true
+    reality-opts:
+      public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
+  - name: q_433
+    type: vless
+    server: 46.17.102.108
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_286
+    type: vless
+    server: 188.34.193.153
+    port: 443
+    uuid: 309fa273-6579-4cb2-9143-7cad50401eba
+    servername: www.cloudflare.com
+    tls: true
+    reality-opts:
+      public-key: gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY
+      short-id: 7cad5040
+  - name: q_634
+    type: vless
+    server: email.swiftraci.org
+    port: 443
+    uuid: f9830277-753f-481b-bb35-15e15a92acb0
+    servername: www.tradingview.com
+    tls: true
+    reality-opts:
+      public-key: Cs45TZ-4YKa8fWZ72YJcIcQCKipWsoYNZHEqFvs-PTE
+      short-id: 83e0acf97a90
+  - name: q_285
+    type: vless
+    server: 188.253.22.180
+    port: 443
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_029
+    type: vless
+    server: 103.90.75.41
+    port: 2053
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    network: ws
+    servername: sni.111000.indevs.in
+    tls: true
+    ws-opts:
+      path: /?ed=2560
+      headers:
+        Host: sni.111000.indevs.in
+  - name: q_059
+    type: vless
+    server: 107.181.147.22
+    port: 443
+    uuid: e1df69ad-2351-4725-adc0-601bd7d8b8e7
+    servername: www.microsoft.com
+    tls: true
+    reality-opts:
+      public-key: Cs45TZ-4YKa8fWZ72YJcIcQCKipWsoYNZHEqFvs-PTE
+      short-id: f7c5599376a0
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - a_2238
+      - q_297
+      - q_602
+      - q_389
+      - q_457
+      - q_598
+      - q_545
+      - q_466
+      - q_272
+      - q_597
+      - q_434
+      - q_408
+      - q_518
+      - q_145
+      - q_608
+      - q_143
+      - q_606
+      - q_306
+      - q_448
+      - q_346
+      - q_546
+      - q_553
+      - q_521
+      - q_141
+      - q_550
+      - q_539
+      - q_440
+      - q_430
+      - q_239
+      - q_179
+      - q_269
+      - q_579
+      - q_549
+      - q_163
+      - q_405
+      - q_412
+      - q_537
+      - q_301
+      - q_005
+      - q_319
+      - q_413
+      - q_305
+      - q_130
+      - q_450
+      - q_262
+      - q_433
+      - q_286
+      - q_634
+      - q_285
+      - q_029
+      - q_059
+  - name: ♻️ 自动选择
+    type: url-test
+    proxies:
+      - a_2238
+      - q_297
+      - q_602
+      - q_389
+      - q_457
+      - q_598
+      - q_545
+      - q_466
+      - q_272
+      - q_597
+      - q_434
+      - q_408
+      - q_518
+      - q_145
+      - q_608
+      - q_143
+      - q_606
+      - q_306
+      - q_448
+      - q_346
+      - q_546
+      - q_553
+      - q_521
+      - q_141
+      - q_550
+      - q_539
+      - q_440
+      - q_430
+      - q_239
+      - q_179
+      - q_269
+      - q_579
+      - q_549
+      - q_163
+      - q_405
+      - q_412
+      - q_537
+      - q_301
+      - q_005
+      - q_319
+      - q_413
+      - q_305
+      - q_130
+      - q_450
+      - q_262
+      - q_433
+      - q_286
+      - q_634
+      - q_285
+      - q_029
+      - q_059
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - a_2238
+      - q_297
+      - q_602
+      - q_389
+      - q_457
+      - q_598
+      - q_545
+      - q_466
+      - q_272
+      - q_597
+      - q_434
+      - q_408
+      - q_518
+      - q_145
+      - q_608
+      - q_143
+      - q_606
+      - q_306
+      - q_448
+      - q_346
+      - q_546
+      - q_553
+      - q_521
+      - q_141
+      - q_550
+      - q_539
+      - q_440
+      - q_430
+      - q_239
+      - q_179
+      - q_269
+      - q_579
+      - q_549
+      - q_163
+      - q_405
+      - q_412
+      - q_537
+      - q_301
+      - q_005
+      - q_319
+      - q_413
+      - q_305
+      - q_130
+      - q_450
+      - q_262
+      - q_433
+      - q_286
+      - q_634
+      - q_285
+      - q_029
+      - q_059
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - a_2238
+      - q_297
+      - q_602
+      - q_389
+      - q_457
+      - q_598
+      - q_545
+      - q_466
+      - q_272
+      - q_597
+      - q_434
+      - q_408
+      - q_518
+      - q_145
+      - q_608
+      - q_143
+      - q_606
+      - q_306
+      - q_448
+      - q_346
+      - q_546
+      - q_553
+      - q_521
+      - q_141
+      - q_550
+      - q_539
+      - q_440
+      - q_430
+      - q_239
+      - q_179
+      - q_269
+      - q_579
+      - q_549
+      - q_163
+      - q_405
+      - q_412
+      - q_537
+      - q_301
+      - q_005
+      - q_319
+      - q_413
+      - q_305
+      - q_130
+      - q_450
+      - q_262
+      - q_433
+      - q_286
+      - q_634
+      - q_285
+      - q_029
+      - q_059
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - a_2238
+      - q_297
+      - q_602
+      - q_389
+      - q_457
+      - q_598
+      - q_545
+      - q_466
+      - q_272
+      - q_597
+      - q_434
+      - q_408
+      - q_518
+      - q_145
+      - q_608
+      - q_143
+      - q_606
+      - q_306
+      - q_448
+      - q_346
+      - q_546
+      - q_553
+      - q_521
+      - q_141
+      - q_550
+      - q_539
+      - q_440
+      - q_430
+      - q_239
+      - q_179
+      - q_269
+      - q_579
+      - q_549
+      - q_163
+      - q_405
+      - q_412
+      - q_537
+      - q_301
+      - q_005
+      - q_319
+      - q_413
+      - q_305
+      - q_130
+      - q_450
+      - q_262
+      - q_433
+      - q_286
+      - q_634
+      - q_285
+      - q_029
+      - q_059
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - a_2238
+      - q_297
+      - q_602
+      - q_389
+      - q_457
+      - q_598
+      - q_545
+      - q_466
+      - q_272
+      - q_597
+      - q_434
+      - q_408
+      - q_518
+      - q_145
+      - q_608
+      - q_143
+      - q_606
+      - q_306
+      - q_448
+      - q_346
+      - q_546
+      - q_553
+      - q_521
+      - q_141
+      - q_550
+      - q_539
+      - q_440
+      - q_430
+      - q_239
+      - q_179
+      - q_269
+      - q_579
+      - q_549
+      - q_163
+      - q_405
+      - q_412
+      - q_537
+      - q_301
+      - q_005
+      - q_319
+      - q_413
+      - q_305
+      - q_130
+      - q_450
+      - q_262
+      - q_433
+      - q_286
+      - q_634
+      - q_285
+      - q_029
+      - q_059
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - a_2238
+      - q_297
+      - q_602
+      - q_389
+      - q_457
+      - q_598
+      - q_545
+      - q_466
+      - q_272
+      - q_597
+      - q_434
+      - q_408
+      - q_518
+      - q_145
+      - q_608
+      - q_143
+      - q_606
+      - q_306
+      - q_448
+      - q_346
+      - q_546
+      - q_553
+      - q_521
+      - q_141
+      - q_550
+      - q_539
+      - q_440
+      - q_430
+      - q_239
+      - q_179
+      - q_269
+      - q_579
+      - q_549
+      - q_163
+      - q_405
+      - q_412
+      - q_537
+      - q_301
+      - q_005
+      - q_319
+      - q_413
+      - q_305
+      - q_130
+      - q_450
+      - q_262
+      - q_433
+      - q_286
+      - q_634
+      - q_285
+      - q_029
+      - q_059
+rule-providers:
+  LocalAreaNetwork:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/LocalAreaNetwork.list
+    path: ./rules/LocalAreaNetwork.yaml
+  BanAD:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/BanAD.list
+    path: ./rules/BanAD.yaml
+  BanProgramAD:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/BanProgramAD.list
+    path: ./rules/BanProgramAD.yaml
+  GoogleCN:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/GoogleCN.list
+    path: ./rules/GoogleCN.yaml
+  SteamCN:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/SteamCN.list
+    path: ./rules/SteamCN.yaml
+  Microsoft:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Microsoft.list
+    path: ./rules/Microsoft.yaml
+  Apple:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Apple.list
+    path: ./rules/Apple.yaml
+  ProxyMedia:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ProxyMedia.list
+    path: ./rules/ProxyMedia.yaml
+  Telegram:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Telegram.list
+    path: ./rules/Telegram.yaml
+  ProxyLite:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ProxyLite.list
+    path: ./rules/ProxyLite.yaml
+  ChinaDomain:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ChinaDomain.list
+    path: ./rules/ChinaDomain.yaml
+  ChinaCompanyIp:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/ChinaCompanyIp.list
+    path: ./rules/ChinaCompanyIp.yaml
+rules:
+  - RULE-SET,LocalAreaNetwork,🎯 全球直连
+  - RULE-SET,BanAD,🛑 全球拦截
+  - RULE-SET,BanProgramAD,🍃 应用净化
+  - RULE-SET,GoogleCN,🎯 全球直连
+  - RULE-SET,SteamCN,🎯 全球直连
+  - RULE-SET,Microsoft,Ⓜ️ 微软服务
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,ProxyMedia,🌍 国外媒体
+  - RULE-SET,Telegram,📲 电报信息
+  - RULE-SET,ProxyLite,🚀 节点选择
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - RULE-SET,ChinaCompanyIp,🎯 全球直连
+  - GEOIP,CN,🎯 全球直连
+  - MATCH,🐟 漏网之鱼
