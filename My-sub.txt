@@ -1,16 +1,9 @@
-trojan://QR4Ui2FRhM@nl2.ftpcomand.com:110?sni=nl2.ftpcomand.com&alpn=h3,h2#Telegram:@FVpnProxy
-trojan://n3unjSDlVl@pl1.ftpcomand.com:110?sni=pl1.ftpcomand.com&alpn=h3,h2#Telegram:@FVpnProxy
-trojan://f4hXeJ8eY8@pl2.ftpcomand.com:110?sni=pl2.ftpcomand.com&alpn=h3,h2#Telegram:@FVpnProxy
-trojan://TV6nDImrHS@nl1.ftpcomand.com:110?sni=nl1.ftpcomand.com&alpn=h3,h2#Telegram:@FVpnProxy
-trojan://EAGjtSHtGQ@fr1.ftpcomand.com:110?sni=fr1.ftpcomand.com&alpn=h3,h2#Telegram:@FVpnProxy
-trojan://50ZO41WYBt@flha2.ftpcomand.com:110?sni=flha2.ftpcomand.com&alpn=h3,h2#Telegram:@FVpnProxy
-trojan://BYKFLGJgOt@flt1.ftpcomand.com:110?sni=flt1.ftpcomand.com&alpn=h3,h2#Telegram:@FVpnProxy
-trojan://0u7H3duI1b@dk1.ftpcomand.com:110?sni=dk1.ftpcomand.com&alpn=h3,h2#Telegram:@FVpnProxy
-trojan://UjuqBGlKJr@bel1.ftpcomand.com:110?sni=bel1.ftpcomand.com&alpn=h3,h2#Telegram:@FVpnProxy
-vless://adcf9278-847d-4f37-9571-fc3989ba6402@ge055555bot02.samaan02.ir:47544?security=none&encryption=none&headerType=http&type=tcp#GE%20%F0%9F%87%A9%F0%9F%87%AA%20%20%7C%20%40%F0%9D%90%93%F0%9D%90%84%F0%9D%90%92%F0%9D%90%8B%F0%9D%90%80_%F0%9D%90%82%F0%9D%90%8E%F0%9D%90%8D%F0%9D%90%85%F0%9D%90%88%F0%9D%90%8D%F0%9D%90%86%F0%9D%90%87
-vless://adcf9278-847d-4f37-9571-fc3989ba6402@snapp.ir:2086?path=%2F&security=none&encryption=none&host=fin2.electrodragon.ir&type=ws#GE%20%F0%9F%87%A9%F0%9F%87%AA%20%20%7C%20%40%F0%9D%90%93%F0%9D%90%84%F0%9D%90%92%F0%9D%90%8B%F0%9D%90%80_%F0%9D%90%82%F0%9D%90%8E%F0%9D%90%8D%F0%9D%90%85%F0%9D%90%88%F0%9D%90%8D%F0%9D%90%86%F0%9D%90%87
-vless://adcf9278-847d-4f37-9571-fc3989ba6402@snapp.ir:2086?path=%2F&security=none&encryption=none&host=sari.electrodragon.ir&type=ws#Fin%20%F0%9F%87%AB%F0%9F%87%AE%20%20%7C%20%40%F0%9D%90%93%F0%9D%90%84%F0%9D%90%92%F0%9D%90%8B%F0%9D%90%80_%F0%9D%90%82%F0%9D%90%8E%F0%9D%90%8D%F0%9D%90%85%F0%9D%90%88%F0%9D%90%8D%F0%9D%90%86%F0%9D%90%87
-vless://adcf9278-847d-4f37-9571-fc3989ba6402@snapp.ir:2086?path=%2F&security=none&encryption=none&host=fin3.electrodragon.ir&type=ws#Fin%20%F0%9F%87%AB%F0%9F%87%AE%20%20%7C%20%40%F0%9D%90%93%F0%9D%90%84%F0%9D%90%92%F0%9D%90%8B%F0%9D%90%80_%F0%9D%90%82%F0%9D%90%8E%F0%9D%90%8D%F0%9D%90%85%F0%9D%90%88%F0%9D%90%8D%F0%9D%90%86%F0%9D%90%87
-vless://adcf9278-847d-4f37-9571-fc3989ba6402@snapp.ir:2082?path=%2F&security=none&encryption=none&host=op2.electrodragon.ir&type=ws#GE%20%F0%9F%87%A9%F0%9F%87%AA%20%20%7C%20%40%F0%9D%90%93%F0%9D%90%84%F0%9D%90%92%F0%9D%90%8B%F0%9D%90%80_%F0%9D%90%82%F0%9D%90%8E%F0%9D%90%8D%F0%9D%90%85%F0%9D%90%88%F0%9D%90%8D%F0%9D%90%86%F0%9D%90%87
-vless://adcf9278-847d-4f37-9571-fc3989ba6402@snapp.ir:2052?path=%2F&security=none&encryption=none&host=ge05.electrodragon.ir&type=ws#GE%20%F0%9F%87%A9%F0%9F%87%AA%20%20%7C%20%40%F0%9D%90%93%F0%9D%90%84%F0%9D%90%92%F0%9D%90%8B%F0%9D%90%80_%F0%9D%90%82%F0%9D%90%8E%F0%9D%90%8D%F0%9D%90%85%F0%9D%90%88%F0%9D%90%8D%F0%9D%90%86%F0%9D%90%87
-Tarkibi Vasle
+vless://bm9uZTpkYTQ4ODU5ZC1lZGY5LTRhOGMtYTAyNi04MDkxMDU5MWYyODRAbnl0aW1lcy5jb206ODA?path=/Tignal&remarks=%F0%9F%92%AB%20@oxnet_ir%20%7C%20v2ray%2028&obfsParam=%7B%22%22:%7B%22xPaddingBytes%22:%22100-1000%22%7D,%22Host%22:%22tignaltofansv8.global.ssl.fastly.net%22%7D&obfs=xhttp&udp=1&mode=auto
+vless://bm9uZTo5NmVlYzM2ZS0yYzQ0LTViMDktODk4ZS02ZjBmMDUyNmU1N2ZAMTQ2Ljc1LjExNy45MTo4MA?path=/Tignal&remarks=%F0%9F%94%A5%20@oxnet_ir%20%7C%20v2ray23&obfsParam=%7B%22%22:%7B%22xPaddingBytes%22:%22100-1000%22%7D,%22Host%22:%22tignaltofansv5.global.ssl.fastly.net%22%7D&obfs=xhttp&udp=1&mode=auto
+vmess://YXV0bzo3OGJiNmMwYi1hNzczLTQwZDEtOGJjNi01NTMzMWJkNDkxMzhAMjEyLjEwNC4xMjguNDY6NDQz?path=/DrPing_channel&remarks=%F0%9F%92%AB%20@oxnet_ir%20%7C%20v2ray%2013&obfsParam=MciNnnnew.dr-ping.ir&obfs=websocket&tls=1&peer=MciNnnnew.dr-ping.ir&alpn=h2,http/1.1&udp=1&alterId=0
+vless://bm9uZTpUSUdOQUwtQ1JZUFRPQDE1MS4xMDEuMTkzLjU3Ojgw?path=/&remarks=%F0%9F%8F%B3%EF%B8%8F%20ShatakVPN%20634786&obfsParam=InternetAzadRobot07gt745.global.ssl.fastly.net&obfs=xhttp&udp=1&mode=auto
+vless://bm9uZTo1Y2RmOTlkMy1hNTFiLTU3MGUtODI0NS1mODdkNjc0ZGM2NTJAMTUxLjEwMS4xOTMuNTc6ODA?path=/&remarks=@Capoit%E2%9D%A4%EF%B8%8F%2Baka_techno%2B&obfsParam=InternetAzadRobot31dx253.global.ssl.fastly.net&obfs=xhttp&udp=1&mode=auto
+vless://bm9uZTpiZDkxMTg3Yi1hZWViLTQwM2QtOGNmZi01YmRjNWViYzA0YzFAY2RuMS5jbG91ZC12ay5jb206NDQz?remarks=%F0%9F%87%AB%F0%9F%87%B7%20France&tls=1&peer=id.vk.ru&udp=1&xtls=2&pbk=blt86EDqS_cqja46UZeRHIJPyB4WrlDWNEQJ3gRfFHQ&sid=75789e44851529f5
+trojan://humanity@2.144.21.112:40443?peer=www.ignitelimit.com&plugin=obfs-local;obfs%3Dwebsocket;obfs-host%3Dwww.ignitelimit.com;obfs-uri%3D/assignment#%F0%9F%87%BA%F0%9F%87%B8%2031%20-%20US%20-%20Trojan/WS/TLS%20-%2040443
+vless://bm9uZTpUSUdOQUwtQ1JZUFRPQDE1MS4xMDEuMTI5LjU3Ojgw?path=/&remarks=%F0%9F%8F%B3%EF%B8%8F%20ShatakVPN%20331898&obfsParam=InternetAzadRobot07gt745.global.ssl.fastly.net&obfs=xhttp&udp=1&mode=auto
+vless://bm9uZTpUSUdOQUwtQ1JZUFRPQDE1MS4xMDEuNjcuNTc6ODA?path=/&remarks=%F0%9F%8F%B3%EF%B8%8F%20ShatakVPN%20627974&obfsParam=InternetAzadRobot07gt745.global.ssl.fastly.net&obfs=xhttp&udp=1&mode=auto
