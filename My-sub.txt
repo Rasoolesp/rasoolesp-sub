@@ -13,4 +13,10 @@ ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQEAyMTguMjM3LjE4NS4yMzA6NDY1Mg#%F0%9F%87%B0%F0%
 vless://bm9uZTpUSUdOQUwtQ1JZUFRPQDE1MS4xMDEuNjcuNTc6ODA?path=/&remarks=%F0%9F%8F%B3%EF%B8%8F%20ShatakVPN%20627974&obfsParam=InternetAzadRobot07gt745.global.ssl.fastly.net&obfs=xhttp&udp=1&mode=auto
 vless://bm9uZTpiZDkxMTg3Yi1hZWViLTQwM2QtOGNmZi01YmRjNWViYzA0YzFAY2RuMTIuY2xvdWQtdmsuY29tOjg0NDM?remarks=%F0%9F%87%AF%F0%9F%87%B5%20Japan&tls=1&peer=id.vk.ru&udp=1&xtls=2&pbk=g-weDXva_I_O4_w4Je8MsCp7jkDTKzQnJL3VIpqh1gc&sid=d58dc15550db38fa
 trojan://humanity@2.144.21.112:40443?peer=www.ignitelimit.com&plugin=obfs-local;obfs%3Dwebsocket;obfs-host%3Dwww.ignitelimit.com;obfs-uri%3D/assignment#%F0%9F%87%BA%F0%9F%87%B8%2031%20-%20US%20-%20Trojan/WS/TLS%20-%2040443
-ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQEAxMTIuMjEzLjEwMi4xODg6NDE2MzI#%F0%9F%87%AD%F0%9F%87%B0HK-112.213.102.188-0151
+ss://YWVzLTI1Ni1jZmI6cXdlclJFV1FAQEAxMTIuMjEzLjEwMi4xODg6NDE2MzI#%F0%9F%87%AD%F0%9F%87%B0HK-
+trojan://humanity@2.144.21.112:40443?security=tls&sni=www.ignitelimit.com&insecure=0&allowInsecure=0&type=ws&host=www.ignitelimit.com&path=%2Fassignment#%F0%9F%87%BA%F0%9F%87%B8%2031%20-%20US%20-%20Trojan%2FWS%2FTLS%20-%2040443
+
+
+
+
+
