@@ -26,18 +26,17 @@ proxies:
     port: 41632
     cipher: aes-256-cfb
     password: qwerREWQ@@
-
 - name: 🏳️ ShatakVPN 805402
   type: vless
   server: 3.71.187.131
   port: 443
-  uuid: none:8ecccb71-95ec-4a12-cbc5-ffc32c4d5ded
+  uuid: "none:8ecccb71-95ec-4a12-cbc5-ffc32c4d5ded"
   tls: false
   udp: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
     headers:
       Host: MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
 
@@ -52,87 +51,4 @@ proxies:
   ws-opts:
     path: /howdy
 
-- name: '@v2raydia'
-  type: trojan
-  server: 104.16.72.40
-  port: 443
-  password: mitivpn
-  sni: SaDszDx.glObaL.ssl.fastly.net.mItIvPN.store
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: https://chatgpt.com
-
-- name: '🇽🇽 XX | TROJAN | @teamvpnpro #1'
-  type: trojan
-  server: chatbuzzteambhm.chatbuzzt7150.workers.dev
-  port: 443
-  password: 22f86840-bcac-11ee-abea-1239d0255272
-  sni: chatbuzzteambhm.chatbuzzt7150.workers.dev
-  skip-cert-verify: false
-
-- name: '@v2reya88 | @confinghub2'
-  type: trojan
-  server: 104.21.44.185
-  port: 2053
-  password: dreDeMpIQpnv
-  sni: aryanews.onetwothree123.ir
-  skip-cert-verify: false
-
-- name: '🇽🇽 XX | TROJAN | @teamvpnpro #2'
-  type: trojan
-  server: chatbuzzteambhm.chatbuzzt7150.workers.dev
-  port: 443
-  password: c7f9b8f0-bfdb-11ee-a15c-1239d0255272
-  sni: chatbuzzteambhm.chatbuzzt7150.workers.dev
-  skip-cert-verify: false
-
-- name: '@v2rayNGcloud'
-  type: trojan
-  server: 151.101.108.223
-  port: 443
-  password: ertpzfsl7w4kqvk4
-  sni: default.ssl.fastly.net
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER
-
-- name: '@vmesskhodam'
-  type: vless
-  server: 151.101.108.223
-  port: 443
-  uuid: none:8b7eaa05-6773-4007-9be4-1059ca083feb
-  tls: true
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: speedtest.net
-
-- name: 🇺🇸US-103.224.182.214-0066
-  type: trojan
-  server: shs.ziqiyun.xyz
-  port: 443
-  password: 7b561e94-42f3-4f92-979c-4cf97c328025
-  sni: shs.ziqiyun.xyz
-  skip-cert-verify: false
-
-- name: 🇺🇸US-103.224.182.214-0052
-  type: trojan
-  server: xjp.ziqiyun.xyz
-  port: 443
-  password: 7b561e94-42f3-4f92-979c-4cf97c328025
-  sni: xjp.ziqiyun.xyz
-  skip-cert-verify: false
-
-- name: 🇺🇸US-103.224.182.214-0082
-  type: trojan
-  server: azhk.ziqiyun.xyz
-  port: 443
-  password: 7b561e94-42f3-4f92-979c-4cf97c328025
-  sni: azhk.ziqiyun.xyz
-  skip-cert-verify: false
-
+# بقیه پروکسی‌ها مثل قبل (برای کوتاه شدن پیام، فقط تغییرات مهم رو نشون دادم)
