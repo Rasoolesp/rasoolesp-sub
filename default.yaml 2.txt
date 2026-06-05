@@ -135,22 +135,3 @@ port: 7890
   password: 7b561e94-42f3-4f92-979c-4cf97c328025
   sni: azhk.ziqiyun.xyz
   skip-cert-verify: false
-
-proxy-groups:
-- name: Select
-  type: select
-  proxies:
-  - 🏳️ ShatakVPN 805402
-  - '@KAFING_2'
-  - '@v2raydia'
-  - '🇽🇽 XX | TROJAN | @teamvpnpro #1'
-  - '@v2reya88 | @confinghub2'
-  - '🇽🇽 XX | TROJAN | @teamvpnpro #2'
-  - '@v2rayNGcloud'
-  - '@vmesskhodam'
-  - 🇺🇸US-103.224.182.214-0066
-  - 🇺🇸US-103.224.182.214-0052
-  - 🇺🇸US-103.224.182.214-0082
-
-rules:
-- MATCH,Select
