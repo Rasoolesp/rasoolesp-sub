@@ -1,54 +1,103 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 0.0.0.0:9090
+
 proxies:
-  - name: GB-1
-    type: ss
-    server: 146.70.61.37
-    port: 8080
-    cipher: rc4-md5
-    password: 14fFPrbezE3HDZzsMOr6
-
-  - name: ES-1
-    type: ss
-    server: 5.188.181.201
-    port: 9001
-    cipher: aes-256-cfb
-    password: UkXRsXvR6buDMG2Y
-
-  - name: US-Trojan
-    type: trojan
-    server: 2.144.21.112
-    port: 40443
-    password: humanity
-    sni: www.ignitelimit.com
-
-  - name: HK-1
-    type: ss
-    server: 112.213.102.188
-    port: 41632
-    cipher: aes-256-cfb
-    password: qwerREWQ@@
-- name: 🏳️ ShatakVPN 805402
-  type: vless
-  server: 3.71.187.131
-  port: 443
-  uuid: "none:8ecccb71-95ec-4a12-cbc5-ffc32c4d5ded"
-  tls: false
-  udp: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
-    headers:
-      Host: MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
-
-- name: '@KAFING_2'
-  type: trojan
-  server: 172.64.152.23
-  port: 443
-  password: 20ba0c60-0133-11f1-95ef-1239d0255272
-  sni: uk1.test3.net
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /howdy
-
-# بقیه پروکسی‌ها مثل قبل (برای کوتاه شدن پیام، فقط تغییرات مهم رو نشون دادم)
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_6f0b4d5b_1","server":"odqumjm5ljq5ljiwoto5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_013e8016","server":"odqumjm5lje0lje1nzo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_3adb38ee","server":"odqumjm5ljq5ljqwojkwmdi","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_5c5afcdb","server":"odqumjm5lje0lje0nzo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_9f5445c9","server":"odqumjm5ljq5lje3njo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_588489b3","server":"odqumjm5ljq5lji1ndo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_5a03f828","server":"odqumjm5ljq5lje3mto5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_aa105999","server":"odqumjm5ljq5lje2njo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_7bdb2d5d","server":"odqumjm5ljq5ljiymzo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_86d476ed","server":"odqumjm5ljq5ljiwnzo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_07b2ee2b","server":"odqumjm5ljq5lje1njo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_01eb1362","server":"odqumjm5lje0lje1ndo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_786985ca","server":"odqumjm5ljq5lje1nzo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_97352dbf","server":"odqumjm5ljq5ljm4ojkwmdi","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_6e39a6cb","server":"odqumjm5lje0lje0odo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_fd7b192d","server":"odqumjm5ljq5lje2mto5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_f8d02395","server":"odqumjm5ljq5ljm5ojkwmdi","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_450af56b","server":"odqumjm5lje0lje1oto5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_d8e88830","server":"odqumjm5ljq5lje4mjo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇺🇸[🎬🎭🎞️📦]_github.com/Ruk1ng001_a88e970f","server":"zle2n0rwztvkvtpnczrcwhdunlnxqde1nc4yni4xotiumtizojewotg4","port":80}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_7b5efeb3","server":"odqumjm5lje0lje1odo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_1a1bd9fd","server":"odqumjm5ljq5lji0oto5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_af52e797","server":"odqumjm5lje0lje0njo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_c5b61986","server":"odqumjm5ljq5lje2mzo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_73809fb0","server":"odqumjm5ljq5ljiynto5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_7f908228","server":"odqumjm5ljq5lje5oto5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_9e2a5f02","server":"odqumjm5lje0lje1mjo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_6d4a7817","server":"odqumjm5ljq5lje3odo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_85cf2f97","server":"odqumjm5ljq5lji0mdo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_6fd1af3e","server":"odqumjm5ljq5ljiznto5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_450d9f17","server":"odqumjm5ljq5ljiwmjo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_e76e07f3","server":"odqumjm5ljq5ljm3ojkwmdi","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_d6864b0e","server":"odqumjm5ljq5lji0mjo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_ef690cc6","server":"odqumjm5ljq5ljiwmto5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_e6c033a3","server":"odqumjm5ljq5ljiynzo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_85c29221","server":"odqumjm5ljq5lje1nto5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_37c76867","server":"mtkzlje3ni44nc4zndo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_961db747","server":"odqumjm5ljq5ljiwndo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_d7d8d337","server":"odqumjm5ljq5ljizndo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_fc196041","server":"odqumjm5ljq5lji0nzo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_223af90e","server":"odqumjm5lje0lje0oto5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_a0cc4c8a","server":"odqumjm5lje0lje2mdo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_a0921b46","server":"odqumjm5ljq5lji1mzo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_01ff4389","server":"odqumjm5ljq5lju1ojkwmdi","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_226fa120","server":"odqumjm5ljq5lje4ndo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_26dd3d10","server":"odqumjm5ljq5ljizodo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_59f086ef","server":"odqumjm5ljq5ljizoto5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_b7a25db2","server":"odqumjm5ljq5lje3nto5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_8ef844c9","server":"odqumjm5ljq5lje3mzo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🔍]_github.com/Ruk1ng001_58a3d31b","server":"odqumjm5ljq5ljizmzo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_750809c5","server":"odqumjm5ljq5lje1ndo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_300e8e1c","server":"odqumjm5ljq5ljixoto5mday","port":443,"tls":true}
+  - {"type":"ss","name":"🟢🇨🇳_github.com/Ruk1ng001_6607b0a2","server":"61.171.92.202","port":1001,"cipher":"aes-256-gcm","password":"123","udp":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_d10eacd8","server":"odqumjm5ljq5lje2mjo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_3b6bf33f","server":"mtkzlje3ni44nc4zmjo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_4a2952a3","server":"odqumjm5ljq5lje3mdo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_1026877a","server":"odqumjm5ljq5lje1oto5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_bc561dde","server":"odqumjm5ljq5lje5odo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_6f0b4d5b_2","server":"odqumjm5ljq5ljiwoto5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_7063f71e","server":"odqumjm5ljq5lje4nzo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_45dd8b4b","server":"odqumjm5ljq5ljizmto5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_edf4fc20","server":"odqumjm5ljq5lju3ojkwmdi","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_a89a852e","server":"odqumjm5ljq5lje2ndo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_9f24578b","server":"odqumjm5ljq5ljixnto5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_6778395a","server":"mtkzlje3ni44nc4zoto5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_390d92de","server":"odqumjm5ljq5lji0nto5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_4de2b545","server":"odqumjm5ljq5ljixmjo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_48370336","server":"odqumjm5ljq5ljixmto5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_4385d4f1","server":"mtkzlje3ni44nc4zmto5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_cb3d27ed","server":"odqumjm5ljq5lje5mto5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_6b7dbcaf","server":"odqumjm5ljq5lje5njo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_26763f04","server":"mtkzlje3ni44nc4znjo5mday","port":443,"tls":true}
+  - {"type":"socks5","name":"defaultName_1","server":"MTIxLjE2OS40Ni4xMTY6MTA5MA","port":1080}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_a43c097b","server":"odqumjm5ljq5lje2mdo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_46e9bf7d","server":"odqumjm5ljq5lje4nto5mday","port":443,"tls":true}
+  - {"type":"socks5","name":"defaultName_2","server":"MTIxLjE2OS40Ni4xMTY6MTA5MA","port":1080}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_ca427c46","server":"odqumjm5ljq5lje4mzo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_cc8f9182","server":"odqumjm5ljq5ljqyojkwmdi","port":443,"tls":true}
+  - {"type":"vless","name":"defaultName_3","server":"bm9uZTozOTRmNjk4MS1hNzgyLTQ3NzktOWE4NS1lNmNmMjI5MzVkOTNANDUuMTU5LjEyLjE4Ojg0NDM","port":null,"uuid":"","network":"tcp"}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_011d3b15","server":"odqumjm5ljq5ljiyndo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_1af479e3","server":"mtkzlje3ni44nc4yndo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_ed7b38b8","server":"odqumjm5ljq5lje4mdo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_aac57d45","server":"odqumjm5ljq5ljixndo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_c91883ca","server":"mtkzlje3ni44nc4ynjo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇦🇺[🤖📺🎪🎞️]_github.com/Ruk1ng001_75a616e0","server":"mtazljyyljuwljezmdo0ndm","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_9d1e9ccb","server":"mtkzlje3ni44nc4ynto5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_0ae131d7","server":"mtkzlje3ni44nc4ynzo5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇷🇴[🎬🤖📺🔍]_github.com/Ruk1ng001_50511bed","server":"mtkzlje3ni44nc4xoto5mday","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇺🇸[🎬🤖📺🔍]_github.com/Ruk1ng001_4df8df8e","server":"mwi5yzq2mgutzjayni0xmwvmlwi3mzctzjizyzkxy2ziymm5ojfiowm0njbllwywmjytmtflzi1inzm3lwyym2m5mwnmymjjoubjmjjhotczyy10zwd4czatdgv0owjlltfzmge3lmlzcc5jzg5rdwfpc2hvds5jb206odq0mw","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇰🇷[🎬🤖📺🎭]_github.com/Ruk1ng001_FQLMnmSE","server":"dgvzddp0zxn0litadgvzdgtymy5zc3yudmm6mza0ndy","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇰🇷[🎬🤖📺🎭]_github.com/Ruk1ng001_f74c5c39","server":"dgvzddp0zxn0litadgvzdgtymy5zc3yudmm6mza0ndy","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇰🇷[🎬📺🎭🎪]_github.com/Ruk1ng001_c290805b","server":"mwi5yzq2mgutzjayni0xmwvmlwi3mzctzjizyzkxy2ziymm5ojfiowm0njbllwywmjytmtflzi1inzm3lwyym2m5mwnmymjjoubmotllyti3mc10ytfvzzatdgjlb3bxltfzmge3lmtylm9zahvhd2vplmnvbtozmtqzmw","port":443,"tls":true}
+  - {"type":"http","name":"🔴🇺🇸[🎬🤖📺🎭]_github.com/Ruk1ng001_57b57596","server":"mwi5yzq2mgutzjayni0xmwvmlwi3mzctzjizyzkxy2ziymm5ojfiowm0njbllwywmjytmtflzi1inzm3lwyym2m5mwnmymjjoua4mgizztmymi10ytfvzzatdgjlb3bxltfzmge3lnnllm9zahvhd2vplmnvbto0ndm","port":443,"tls":true}
+  - {"type":"socks5","name":"defaultName_4","server":"NS4yNTUuOTkuNzU6MTA4MA","port":1080}
+  - {"type":"hysteria2","name":"🟢🇩🇪[🎬🤖📺🔍]_github.com/Ruk1ng001_c508f1a1","server":"80.66.81.78","port":9443,"password":"rs2mR3g9bZiMloftx6lZQ59Um1Ld"}
