@@ -1,0 +1,44 @@
+rules:
+  - DOMAIN-SUFFIX,telegram.org,Telegram
+  - DOMAIN-SUFFIX,t.me,Telegram
+  - DOMAIN-SUFFIX,telegra.ph,Telegram
+  - DOMAIN-SUFFIX,telegram.me,Telegram
+  - DOMAIN-SUFFIX,telesco.pe,Telegram
+  - DOMAIN-SUFFIX,comments.app,Telegram
+  - DOMAIN-KEYWORD,telegram,Telegram
+  - DOMAIN-KEYWORD,telegra,Telegram
+# ===================== Telegram Full Rules =====================
+- HOST-KEYWORD,telegram,Telegram
+- HOST-KEYWORD,t.me,Telegram
+- HOST-KEYWORD,telegra,Telegram
+- HOST-KEYWORD,telegram.me,Telegram
+- HOST-KEYWORD,tdesktop,Telegram
+- HOST-KEYWORD,telesco,Telegram
+- HOST-KEYWORD,comments.app,Telegram
+- HOST-KEYWORD,tx.me,Telegram
+- HOST-KEYWORD,graph.org,Telegram
+- HOST-KEYWORD,tg.dev,Telegram
+- HOST-KEYWORD,telega.one,Telegram
+- HOST-KEYWORD,telegram.dog,Telegram
+- HOST-KEYWORD,api.telegram,Telegram
+- HOST-KEYWORD,cdn.telegram,Telegram
+- HOST-KEYWORD,static.telegram,Telegram
+# ============================================================
+
+# Telegram IP Ranges - Full List
+- IP-CIDR,149.154.160.0/20,Telegram,no-resolve
+- IP-CIDR,91.108.4.0/22,Telegram,no-resolve
+- IP-CIDR,91.108.8.0/22,Telegram,no-resolve
+- IP-CIDR,91.108.12.0/22,Telegram,no-resolve
+- IP-CIDR,91.108.16.0/22,Telegram,no-resolve
+- IP-CIDR,91.108.20.0/22,Telegram,no-resolve
+- IP-CIDR,91.108.56.0/22,Telegram,no-resolve
+- IP-CIDR,91.105.192.0/23,Telegram,no-resolve
+- IP-CIDR,185.76.151.0/24,Telegram,no-resolve
+
+# IPv6
+- IP-CIDR6,2001:b28:f23d::/48,Telegram,no-resolve
+- IP-CIDR6,2001:b28:f23f::/48,Telegram,no-resolve
+- IP-CIDR6,2001:67c:4e8::/48,Telegram,no-resolve
+- IP-CIDR6,2001:b28:f23c::/48,Telegram,no-resolve
+- IP-CIDR6,2a0a:f280::/32,Telegram,no-resolve
