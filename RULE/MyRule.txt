@@ -1,0 +1,11 @@
+[Rule]
+DOMAIN-SUFFIX,app.blubank.com,DIRECT
+DOMAIN-SUFFIX,ipv4.meuip.pt,PROXY,pre-matching,extended-matching
+DOMAIN-SUFFIX,googleads.g.doubleclick.net,REJECT-200,pre-matching,extended-matching
+USER-AGENT,safari,iphone,,MY
+GEOIP,PRIVATE,DIRECT
+GEOIP,IR,DIRECT
+DOMAIN-SUFFIX,ir,DIRECT
+DOMAIN,yacd.haishan.me,DIRECT
+
+
