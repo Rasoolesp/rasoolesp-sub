@@ -10,7 +10,7 @@ DOMAIN,yacd.haishan.me,DIRECT
 host, www.google.com, direct
 host, app.blubank.com, direct
 host-keyword, googlevideo, AD-Block
-
+DOMAIN,app-analytics-services.com,REJECT
 
 
 
