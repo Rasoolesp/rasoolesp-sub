@@ -7,5 +7,12 @@ GEOIP,PRIVATE,DIRECT
 GEOIP,IR,DIRECT
 DOMAIN-SUFFIX,ir,DIRECT
 DOMAIN,yacd.haishan.me,DIRECT
+host, www.google.com, direct
+host, app.blubank.com, direct
+host-keyword, googlevideo, AD-Block
+
+
+
+
 
 
